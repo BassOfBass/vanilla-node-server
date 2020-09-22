@@ -2,10 +2,15 @@
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
+const colors = require("colors");
 
+const chosenColor = colors.getRandomColor();
+const favoriteColor = colors.getBlue();
 const hostname = '127.0.0.1';
 const port = 8125;
 
+console.log(`You should use ${chosenColor.name} on your website. It's HTML code is ${chosenColor.code}`);
+console.log(`My favorite color is ${favoriteColor.name}/${favoriteColor.code}, btw`);
 /**
  * The function for creating the server.
  * 
