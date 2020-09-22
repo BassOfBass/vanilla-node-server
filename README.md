@@ -8,7 +8,8 @@ Links:
 - <del>[Frameworkless Node Server](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Node_server_without_framework)</del> <ins>Done</ins>
 - [How to code](https://www.digitalocean.com/community/tutorial_series/how-to-code-in-node-js)
   - <del>[How To Write and Run Your First Program in Node.js](https://www.digitalocean.com/community/tutorials/how-to-write-and-run-your-first-program-in-node-js)</del> <ins>Done</ins>
-  - [How To Use the Node.js REPL](https://www.digitalocean.com/community/tutorials/how-to-use-the-node-js-repl)
+  - <del>[How To Use the Node.js REPL](https://www.digitalocean.com/community/tutorials/how-to-use-the-node-js-repl)</del> <ins>Done</ins>
+  - [How To Use Node.js Modules with npm and package.json](https://www.digitalocean.com/community/tutorials/how-to-use-node-js-modules-with-npm-and-package-json)
 
 TODOs:
 
