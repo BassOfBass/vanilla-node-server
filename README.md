@@ -12,10 +12,12 @@ Links:
   - <del>[How To Use Node.js Modules with npm and package.json](https://www.digitalocean.com/community/tutorials/how-to-use-node-js-modules-with-npm-and-package-json)</del> <ins>Done</ins>
   - <del>[How To Create a Node.js Module](https://www.digitalocean.com/community/tutorials/how-to-create-a-node-js-module)</del> <ins>Done</ins>
   - <del>[How To Write Asynchronous Code in Node.js](https://www.digitalocean.com/community/tutorials/how-to-write-asynchronous-code-in-node-js)</del> <ins>Done</ins>
-  - [How To Test a Node.js Module with Mocha and Assert](https://www.digitalocean.com/community/tutorials/how-to-test-a-node-js-module-with-mocha-and-assert)
+  - <del>[How To Test a Node.js Module with Mocha and Assert](https://www.digitalocean.com/community/tutorials/how-to-test-a-node-js-module-with-mocha-and-assert)</del> <ins>Done</ins>
+  - [How To Create a Web Server in Node.js with the HTTP Module](https://www.digitalocean.com/community/tutorials/how-to-create-a-web-server-in-node-js-with-the-http-module)
 
 TODOs:
 
 - [Scraping](https://www.digitalocean.com/community/tutorials/how-to-scrape-a-website-using-node-js-and-puppeteer)
+- Decide on HSLA vars in base CSS.
 - Rewrite in ES6 imports (have to research if it's possible in the first place)
 
