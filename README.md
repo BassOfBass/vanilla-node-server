@@ -14,8 +14,8 @@ Links:
   - <del>[How To Write Asynchronous Code in Node.js](https://www.digitalocean.com/community/tutorials/how-to-write-asynchronous-code-in-node-js)</del> <ins>Done</ins>
   - <del>[How To Test a Node.js Module with Mocha and Assert](https://www.digitalocean.com/community/tutorials/how-to-test-a-node-js-module-with-mocha-and-assert)</del> <ins>Done</ins>
   - <del>[How To Create a Web Server in Node.js with the HTTP Module](https://www.digitalocean.com/community/tutorials/how-to-create-a-web-server-in-node-js-with-the-http-module)</del> <ins>Done</ins>
-  - [Using Buffers in Node.js](https://www.digitalocean.com/community/tutorials/using-buffers-in-node-js)
-  - [Using Event Emitters in Node.js](https://www.digitalocean.com/community/tutorials/using-event-emitters-in-node-js)
+  - <del>[Using Buffers in Node.js](https://www.digitalocean.com/community/tutorials/using-buffers-in-node-js)</del> <ins>Done</ins>
+  - <del>[Using Event Emitters in Node.js](https://www.digitalocean.com/community/tutorials/using-event-emitters-in-node-js)</del> <ins>Done</ins>
   - [How To Debug Node.js with the Built-In Debugger and Chrome DevTools](https://www.digitalocean.com/community/tutorials/how-to-debug-node-js-with-the-built-in-debugger-and-chrome-devtools)
   - [How To Launch Child Processes in Node.js](https://www.digitalocean.com/community/tutorials/how-to-launch-child-processes-in-node-js)
   - [How To Work with Files using the fs Module in Node.js](https://www.digitalocean.com/community/tutorials/how-to-work-with-files-using-the-fs-module-in-node-js)
