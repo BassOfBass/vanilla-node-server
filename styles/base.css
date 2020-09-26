@@ -9,72 +9,53 @@
   var is not supported by IE
 */
 :root {
-  /* TODO: research on env() which is in Editor's Draft stage as of 2020-09-10 and no IE support */
-  /* var() is Candidate Recommendation as of 2020-09-10 and no IE support*/
+  /*
+   TODO: research on env() which is in Editor's Draft stage as of 2020-09-10 and no IE support 
+  */
+  /*
+   var() is Candidate Recommendation as of 2020-09-10 and no IE support 
+  */
 
   /* HSLA Hue */
-  --hslh1: 0;
-  --hslh2: calc(var(--hslh1) + 60);
-  --hslh3: calc(var(--hslh2) + 60);
-  --hslh4: calc(var(--hslh3) + 60);
-  --hslh5: calc(var(--hslh4) + 60);
-  --hslh6: calc(var(--hslh5) + 60);
+  --base-colour: 30;
+  --H1: var(--base-colour);
+  --H2: calc(var(--H1) + 120);
+  --H3: calc(var(--H2) + 120);
 
   /* HSLA Saturation */
-  --hsls: 50%;
-  --hsls-rich: 75%;
-  --hsls-poor: 35%;
+  --S: 50%;
+  --S-rich: 75%;
+  --S-poor: 35%;
 
   /* HSLA Lightness */
-  --hsll: 50%;
-  --hsll-light: 75%;
-  --hsll-dark: 35%;
+  --L: 50%;
+  --L-light: 75%;
+  --L-dark: 35%;
 
   /* HSLA Alpha */
-  --hsla: 100%;
-  --hsla-trans: 75%;
+  --A: 100%;
+  --A-trans: 75%;
 
   --prim-colour1: 
     hsla(
-      var(--hslh1), 
-      var(--hsls), 
-      var(--hsll),
-      var(--hsla)
+      var(--H1), 
+      var(--S), 
+      var(--L),
+      var(--A)
     );
-  --prim-colour2: 
+  --prim-colour2:
     hsla(
-      var(--hslh2), 
-      var(--hsls), 
-      var(--hsll),
-      var(--hsla)
+      var(--H2),
+      var(--S),
+      var(--L),
+      var(--A)
     );
-  --prim-colour3: 
+  --prim-colour3:
     hsla(
-      var(--hslh3), 
-      var(--hsls), 
-      var(--hsll),
-      var(--hsla)
-    );
-  --prim-colour4: 
-    hsla(
-      var(--hslh4), 
-      var(--hsls), 
-      var(--hsll),
-      var(--hsla)
-    );
-  --prim-colour5: 
-    hsla(
-      var(--hslh5), 
-      var(--hsls), 
-      var(--hsll),
-      var(--hsla)
-    );
-  --prim-colour6: 
-    hsla(
-      var(--hslh6), 
-      var(--hsls), 
-      var(--hsll),
-      var(--hsla)
+      var(--H3),
+      var(--S),
+      var(--L),
+      var(--A)
     );
 }
 
@@ -96,6 +77,10 @@ html {
 */
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+*:target {
+  border: 3px solid gray;
 }
 
 body {
@@ -146,32 +131,32 @@ hgroup {}
 */
 h1 {
   font-size: 2.2rem;
-  color: var(--primary-color1);
+  color: var(--prim-colour1);
 }
 
 h2 {
   font-size: 2rem;
-  color: var(--primary-color2);
+  color: var(--prim-colour2);
 }
 
 h3 {
   font-size: 1.8rem;
-  color: var(--primary-color3);
+  color: var(--prim-colour3);
 }
 
 h4 {
   font-size: 1.6rem;
-  color: var(--primary-color4);
+  color: var(--prim-colour1);
 }
 
 h5 {
   font-size: 1.4rem;
-  color: var(--primary-color5);
+  color: var(--prim-colour2);
 }
 
 h6 {
   font-size: 1.2rem;
-  color: var(--primary-color6);
+  color: var(--prim-colour3);
 }
 /* END Content sectioning */
 
